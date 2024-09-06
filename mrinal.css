@@ -1,0 +1,63 @@
+/* Main CSS for the webpage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fffbf2;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5e6ca;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #ff6b6b;
+    text-shadow: 2px 2px #ffcc00;
+}
+
+header h2 {
+    font-size: 2em;
+    color: #ffa500;
+    margin-top: 10px;
+}
+
+main p {
+    font-size: 1.4em;
+    color: #333;
+    margin: 20px 0;
+}
+
+.quote {
+    font-style: italic;
+    color: #555;
+    background-color: #fff5e1;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.image {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #6b705c;
+}
